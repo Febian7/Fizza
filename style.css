@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;  /* Menetapkan tinggi body agar sesuai dengan tinggi layar */
+  font-family: "Cal Sans", "Sans-Serif";
+}
+
+.head {
+  height: 60em;
+  width: 430px;
+}
+
+.navbar {
+  background: transparent;
+  padding: 0.1em;
+  height: 70px;
+}
+
+.navdiv li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  margin: 0.9em;
+  text-shadow: 3px 0px 10px #d1d1d1;
+}
+
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  color: #f26429;
+  text-shadow: 3px 0px 10px #d1d1d1;
+  font-size: 35px;
+  position: relative;
+  top: -10px;
+  right: -15px;
+}
+
+.pizza {
+  position: relative;
+  height: 230px;
+  width: 230px;
+}
+
+.content {
+  position: relative;
+  top: -125px;
+  margin-bottom: 20px;
+  display: flex;
+  background: red;
+  justify-content: center;
+  align-items: center;
+  height: 30em;
+  z-index: 1;
+  width: 450px;
+}
+
+.divbutton button {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+  width: 100px;
+  border-radius: 10px;
+  background: transparent;
+  border: 2px solid white;
+  color: #cccccc;
+  position: relative;
+  top: 200px;
+  right: -9em;
+}
+
+.divbutton .btn1 {
+  position: relative;
+  right: -12.7em;
+  background: white;
+  color: #000000;
+  text-shadow: 2px 0px hsl(0, 0%, 84.2%);
+}
+
+.divbutton .btn2 {
+  width: 200px;
+  background: #000000;
+  border: 2px solid hsl(0, 0%, 0%);
+  color: white;
+  text-shadow: 1px 0px hsl(0, 0%, 78%);
+}
+
+.detail {
+  font-size: 10px;
+  position: relative;
+  top: 125px;
+  left: 50px;
+  z-index: 2;
+  width: 350px;
+}
+
+.detail h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.detail p {
+  font-size: 15px;
+  margin-top: 0.5em;
+}
+
+.Restaurant {
+  position: relative;
+  top: -450px;  /* Ubah nilai top agar lebih sesuai dengan layout */
+  width: 450px;
+  height: 450px;
+}
+
+.about {
+  position: relative;
+  top: -500px;  /* Menghapus top yang besar agar lebih sesuai */
+  height: 500px;
+  width: 450px;
+  background: black;
+}
+.about p{
+  color:gray;
+  position: relative;
+  top:50px;
+  
+}
